@@ -1,0 +1,910 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,700,900&subset=latin,latin-ext);
+
+
+/* HOJA DE ESTILO CSS */
+
+/* ESTILOS */
+
+html, body{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:15px;
+  color:#222223;
+  font-weight:400;
+  height:100%;
+}
+
+a{
+  text-decoration:none;
+  outline:none;
+}
+
+h1{
+  font-size:56px;
+  color:white;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+}
+
+h2{
+  font-size:36px;
+  color:#222223;
+  text-transform:uppercase;
+  text-align:left;
+}
+
+p{
+  font-size:19px;
+  color:white;
+  margin-top:50px;
+}
+
+
+h1 span{
+  color:#70c0ad;
+}
+
+.p-texto{
+  font-size:19px;
+  color:white;
+  margin-top:50px;
+  text-align: justify;
+}
+
+.container{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+
+
+/* Página de inicio */
+
+.start-page{
+  position:relative;
+  width:100%;
+  height:580px;
+  background:url('IMG - OPTIMIZADAS/iStock-1285431216.jpg') 0px 0px fixed;
+
+}
+
+.start-page .opacity{
+  position:absolute;
+  width:100%;
+  height:580px;
+  background:rgba(0,0,0,0.7);
+}
+
+
+.start-page .content{
+  position:relative;
+  width:900px;
+  margin:0 auto;
+  height:580px;
+}
+
+.start-page .content .text{
+  position:absolute;
+  text-align:center;
+  margin:auto;
+  top:0; 
+  left:0; 
+  bottom:0; 
+  right:0;
+  width:500px;
+  height:320px;
+}
+
+
+.start-page .content .text .read-more{
+  width:183px;
+  height:47px;
+  margin:50px auto;
+  line-height:47px;
+  border:1px solid white;
+  text-transform:uppercase;
+  color:white;
+  cursor:pointer;
+  font-size:19px;
+  background:none;
+}
+
+.start-page .content .text .read-more:hover{
+  color: #222223;
+  background:white;
+}
+
+/* Menu para celular */
+
+.menu-media{
+  position:relative;
+  width:100%;
+  height:90px;
+  background:#222223;
+  z-index:1000;
+  display:none;
+}
+
+.menu-media .menu-content{
+  width:280px;
+  position:relative;
+  margin:0 auto;
+}
+
+.menu-media .menu-content .logo {
+   color:white;
+   font-weight:700;
+   font-size:30px;
+   width:200px;
+   line-height:90px;
+   float:left;
+   list-style: none;
+}
+
+.menu-media .menu-content .icon{
+
+  width:41px;
+  height:23px;
+  float:right;
+  line-height:100px;
+}
+
+/* Menu */
+
+.menu{
+  position:relative;
+  width:100%;
+  height:90px;
+  background:#222223;
+  z-index:1000;
+}
+
+.menu-content{
+  width:900px;
+  position:relative;
+  margin:0 auto;
+}
+
+.menu-content .logo {
+   color:white;
+   background:#222223;
+   float:left;
+   list-style: none;
+   align-items: center;
+ }
+
+
+.menu-click{
+  display:none;
+}
+
+
+.menu-click li {
+  position:relative;
+  width:100%;
+  height:70px;
+  color:white;
+  font-size:29px;
+  text-align:center;
+  line-height:70px;
+  background:#222223;
+  z-index:1000;
+  border-bottom:1px solid #70c0ad;
+ }
+
+.menu-click li:hover {
+  color:#70c0ad;
+ }
+
+.menu-content ul{
+
+  width:500px;
+  left:50%;
+  float:right;
+  text-align:right;
+  list-style:none;
+}
+
+.menu-content li{
+   display:inline-block;
+   position:relative;
+}
+
+.menu-content li a{
+  color:#70c0ad;
+  font-size:16px;
+  display: block;
+  padding: 0 20px 0 20px;
+  line-height:90px;
+}
+
+.menu-content li.active a{
+  background-color:#222223;
+}
+
+.menu-content li a:hover{
+  color:white;
+}
+
+
+/* About us */
+
+.about-us{
+  position:relative;
+  width:900px;
+  margin:0 auto;
+  margin-bottom:10px;
+
+}
+
+.about-us h1{
+  font-size:56px;
+  color:black;
+  text-align:center;
+  margin-top:50px;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+
+}
+
+.about-us hr{
+  color: black;
+  margin-top:30px;
+  background-color: black;
+  height: 1px;
+  width:340px;
+  border:0;
+
+}
+
+.about-us p.title{
+  color: #919191;
+  margin-top:40px;
+  width:100%;
+  font-size:15px;
+  text-align:center;
+}
+
+.about-us h2{
+  text-align:center;
+  margin-top:20px;
+  font-size:29px;
+  color:black;
+  line-height:1.2;
+  width:100%;
+  position:relative;
+  font-weight:bold;
+}
+
+.about-us p{
+  text-align:center;
+  margin-top:20px;
+  font-size:15px;
+  width:100%;
+  color:#919191;
+  line-height:1.4;
+  position:relative;
+  font-weight:400;
+}
+
+.about-us .column-one{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:350px;
+}
+
+.about-us .column-one .circle-one{
+  height: 174px;
+  position:relative;
+  margin:0 auto;
+  border:8px solid #ebebeb;
+  background: url() #2fa68e no-repeat center center;
+  border-radius: 174px;
+  width: 174px;
+  cursor:pointer;
+ }
+
+.about-us .column-one .circle-one:hover{
+  background: url() #f3f3f3 no-repeat center center;
+
+}
+
+.about-us .column-two{
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:350px;
+}
+
+.about-us .column-two .circle-two{
+  height: 174px;
+  position:relative;
+  margin:0 auto;
+  border:8px solid #ebebeb;
+  background: url() #2fa68e no-repeat center center;
+  border-radius: 174px;
+  width: 174px;
+  cursor:pointer;
+}
+
+.about-us .column-two .circle-two:hover{
+  background: url() #f3f3f3 no-repeat center center;
+}
+
+
+.about-us .column-three{ 
+  margin-top:40px;
+  width:300px;
+  float:left;
+  margin-bottom:70px;
+  height:350px;
+}
+
+.about-us .column-three .circle-three{ 
+  height: 174px;
+  position:relative;
+  margin:0 auto;
+  border:8px solid #ebebeb;
+  background: url() #2fa68e no-repeat center center;
+  border-radius: 174px;
+  width: 174px;
+  cursor:pointer;
+ }
+
+.about-us .column-three .circle-three:hover{ 
+  background: url(../img/icons/free.png) #f3f3f3 no-repeat center center;
+}
+
+
+
+/* Galería | Portfolio */
+
+
+.portfolio{
+  position:relative;
+  width:100%;
+  background:#70c0ad;
+
+}
+
+.portfolio .portfolio-margin{
+  position:relative;
+  width:900px;
+  overflow:hidden;
+  margin:0 auto;
+}
+
+.portfolio .portfolio-margin .read-more{
+  width:183px;
+  height:47px;
+  position:relative;
+  margin:50px auto;
+  line-height:47px;
+  border:1px solid white;
+  text-transform:uppercase;
+  text-align:center;
+  color:white;
+  cursor:pointer;
+  font-size:19px;
+  background:none;
+  transition: all 0.2s ease-in;
+}
+
+.portfolio .portfolio-margin .read-more:hover{
+  color:black;
+  background:white;
+}
+
+.portfolio .portfolio-margin h1{
+  font-size:56px;
+  color:white;
+  padding-top:50px;
+  text-align:center;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+
+}
+
+.portfolio .portfolio-margin hr{
+  color: black;
+  margin-top:30px;
+  background-color: white;
+  height: 1px;
+  width:340px;
+  border:0;
+}
+
+/* Portfolio grid */
+
+.grid{
+  margin-top:70px;
+  width:100%;
+  position:relative;
+  margin-bottom:70px;
+  overflow:hidden;
+}
+
+.grid li{
+  width:300px;
+  height:225px;
+  float: left;
+  position: relative;
+  overflow: auto;
+}
+
+.grid img{
+  width: 100%;
+  height: 225px;
+  float: left;
+  position: relative;
+}
+
+.clear { 
+    clear:both; 
+}
+
+/* Banner */
+
+.partners{
+  position:relative;
+  width:100%;
+  height:307px;
+  background:url('IMG - OPTIMIZADAS/concepto-marketing.jpg') 0px 0px fixed;
+}
+
+.partners .opacity{
+  position:absolute;
+  width:100%;
+  height:307px;
+  background:rgba(0,0,0,0.8);
+}
+
+.partners .content{
+  position:absolute;
+  width:900px;
+  height:190px;
+  margin:auto;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.partners h2{
+  color:white;
+  font-size:52px;
+  font-weight:900;
+  text-align:center;
+}
+
+/* ContactO */
+
+.contact{
+  position:relative;
+  width:900px;
+  margin: 0 auto;  
+  
+}
+
+.contact h1{
+  font-size:56px;
+  color:black;
+  padding-top:50px;
+  text-align:center;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+
+}
+
+.contact hr{
+  margin-top:30px;
+  background-color: black;
+  height: 1px;
+  width:340px;
+  border:0;
+}
+
+
+.contact .content{
+  position:relative;
+  width:900px;
+  overflow:hidden;
+  margin: 60px 0 65px 0;  
+  
+}
+
+.contact .content .form{
+  width:455px;
+  overflow:hidden;
+  height:auto;
+  float:left;
+ 
+}
+
+.contact .content .contact-text{
+  width:405px;
+  overflow:hidden;
+  height:auto;
+  float:left;
+  padding-left:40px;
+  color:black;
+  font-size:17px;
+  line-height:1.7;
+}
+
+strong{
+  font-weight:700;
+
+}
+
+input{
+
+  width:420px;
+  height:40px;
+  background:#23282d;
+  border:0;
+  color:white;
+  font-weight:bold;
+  line-height:40px;
+  padding-left:35px;
+  border-radius: 4px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:17px;
+  margin-bottom:10px;
+}
+
+textarea{
+
+  width:420px;
+  height:283px;
+  background:#23282d;
+  border:0;
+  color:white;
+  font-weight:bold;
+  padding:15px 0 0 35px;
+  border-radius: 4px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:17px;
+  margin-bottom:10px;
+}
+
+.contact .content .form .button{
+  width:142px;
+  height:34px;
+  float:right;
+  margin:0;
+  background:#23282d;
+  border:0;
+  border-radius: 4px;
+}
+
+.contact .content .form a .button{
+  text-align:center;
+  color:white;
+  font-weight:bold;
+  line-height:34px;
+  font-size:17px;
+}
+
+.contact .content .form .button:hover{
+  color:white;
+  background:#2fa68e;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #23282d; /* Color de fondo si lo deseas */
+  padding: 20px 0; /* Espaciado arriba y abajo */
+  text-align: center; /* Centra el texto */
+}
+
+.menu-footer {
+  margin-bottom: 10px; /* Espacio entre los enlaces y la sección de derechos */
+}
+
+.menu-footer a {
+  margin: 0 15px; /* Espacio horizontal entre los enlaces */
+  text-decoration: none; /* Quita el subrayado */
+  color: #70c0ad; /* Color del texto */
+}
+
+.copyright {
+  font-size: 14px; /* Ajusta el tamaño de fuente si es necesario */
+  color: #70c0ad; /* Color del texto de derechos */
+}
+
+.copyright a {
+  color: #70c0ad; /* Cambia este color al que desees para el enlace del mail */
+  text-decoration: underline; /* Si deseas que el enlace tenga un subrayado */
+}
+
+.copyright a:hover {
+  color: #ffffff; /* Cambia el color al pasar el ratón por encima, opcional */
+}
+
+
+
+/* ESTILOS RESPONSIVE */
+
+
+/* Pantalla 320 x 579 */
+@media (min-width: 320px) and (max-width: 579px) {
+
+.menu{
+  display:none;
+}
+
+.menu-media{
+  display:block;
+}
+
+.start-page .content {
+  width:300px;
+  height:500px;
+}
+
+.start-page, .start-page .opacity{
+  height:500px;
+}
+.start-page .content .text {
+  width:300px;
+}
+
+
+h1 {
+  font-size:36px;
+}
+
+.about-us h1 {
+  margin-top:0;
+}
+
+.about-us{
+  width:300px;
+}
+
+.about-us hr,.portfolio .portfolio-margin hr, .contact hr {
+  width:200px;
+}
+
+.about-us .column-one, .about-us .column-two{
+  width:300px;
+  margin-bottom:20px;
+}
+
+ .about-us .column-three{
+  width:300px;
+  margin-bottom:70px;
+ }
+
+.portfolio .portfolio-margin{
+  width:300px;
+}
+
+.partners .content{
+  width:300px;
+}
+
+.partners .logo {
+  width:300px;
+}
+
+.partners .logo img {
+  width:80px;
+}
+
+.contact, .contact .content, .contact .content .form{
+  width:300px;
+}
+
+.contact .content .contact-text{
+  padding-left:0px;
+  width:300px;
+  text-align:center;
+  margin-top:60px;
+}
+
+.footer .margin {
+  width:300px;
+}
+
+.footer .margin .copyright {
+  width:280px;
+  text-align:center;
+}
+
+.footer .margin .menu-footer{
+  width:300px;
+}
+
+.footer .margin .menu-footer a{
+  font-size:15px;
+  padding-right:10px;
+  text-align:center;
+}
+
+}
+
+/* Pantalla 580 x 767 */
+@media (min-width: 580px) and (max-width: 767px) {
+
+.menu{
+  display:none;
+}
+
+.menu-media{
+  display:block;
+}
+
+.menu-media .menu-content{
+  width:540px;
+}
+
+.start-page .content {
+  width:560px;
+  height:500px;
+}
+
+.start-page, .start-page .opacity{
+  height:500px;
+}
+.start-page .content .text {
+  width:560px;
+}
+
+
+h1 {
+  font-size:56px;
+}
+
+.about-us h1 {
+  margin-top:0;
+}
+
+.about-us{
+  width:300px;
+}
+
+.about-us hr,.portfolio .portfolio-margin hr, .contact hr {
+  width:200px;
+}
+
+.about-us .column-one, .about-us .column-two{
+  width:300px;
+  margin-bottom:20px;
+}
+
+ .about-us .column-three{
+  width:300px;
+  margin-bottom:70px;
+ }
+
+.portfolio .portfolio-margin{
+  width:300px;
+}
+
+.partners .content{
+  width:300px;
+}
+
+.partners .logo {
+  width:300px;
+}
+
+.partners .logo img {
+  width:80px;
+}
+
+.contact, .contact .content, .contact .content .form{
+  width:300px;
+}
+
+.contact .content .contact-text{
+  padding-left:0px;
+  width:300px;
+  text-align:center;
+  margin-top:60px;
+}
+
+.footer .margin {
+  width:300px;
+}
+
+.footer .margin .copyright {
+  width:300px;
+  text-align:center;
+}
+
+.footer .margin .menu-footer{
+  width:320px;
+}
+
+}
+
+
+/* Pantalla 768 x 1023 */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+
+.menu-content .logo{
+  width:200px;
+}
+
+.menu-content{
+  width:700px;
+}
+
+.about-us{
+  width:700px;
+}
+
+.about-us .column-one{
+  width:233px;
+}
+
+.about-us .column-two{
+  width:233px;
+}
+
+.about-us .column-three{
+  width:233px;
+}
+
+.portfolio .portfolio-margin {
+  width:600px;
+}
+
+.partners .content{
+  width:700px;
+}
+
+.partners .logo {
+  width:700px;
+}
+
+.footer .margin .menu-footer {
+  width:350px;
+}
+
+.footer .margin .copyright {
+  width:320px;
+}
+.footer .margin {
+  width:700px;
+}
+
+.contact {
+  width:700px
+}
+
+.contact .content {
+  width:700px;
+}
+
+.contact .content .form{
+  width:355px;
+}
+
+input{
+  width:320px;
+}
+
+textarea{
+  width:320px;
+}
+
+.contact .content .contact-text {
+  width:275px;
+}
+
+}
+
